@@ -1,0 +1,72 @@
+html,
+body {
+    background-color: black;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0% 100px;
+}
+
+.container {
+    background-color: hsl(0deg 0% 12%);
+    outline: 1px solid hsl(0deg 0% 12%);
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#name {
+    font-family: Proximasoft super;
+    font-size: xx-large;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#location {
+    font-family: Proximasoft super;
+    font-size: small;
+    color: hsl(75deg 93% 57%);
+    margin: 0px;
+    padding: 0px;
+}
+
+#job-title {
+    font-family: Proximasoft super;
+    font-size: smaller;
+    color: rgb(207, 207, 207);
+    margin: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    font-family: Proximasoft super;
+    font-size: small;
+    color: white;
+}
+
+button {
+    background-color: hsl(0, 0%, 21%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.container button:hover {
+    background-color: hsl(75deg 93% 57%);
+    color: hsl(0, 0%, 21%);
+}
