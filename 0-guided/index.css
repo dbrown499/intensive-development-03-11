@@ -1,0 +1,64 @@
+body {
+    /* background-color: black; */
+}
+
+.profile-card {
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    width: 335px;
+    display: grid;
+    grid-template-rows: 220px 300px;
+}
+
+.profile-card__background {
+    height: 220px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.profile-card__pic {
+    position: absolute;
+    left: 90px;
+    top: 155px;
+    border-radius: 50%;
+    border: 10px solid white;
+    height: 100px;
+}
+
+.info {
+    width: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: hsl(0deg 0% 93%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.profile-card__name {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+
+}
+
+.profile-card__bio {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 10pt;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.profile-card__links {
+    padding-top: 20px;
+}
+
+.link-icon {
+    height: 25px;
+    margin: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -23,8 +23,13 @@ body {
 
 button {
     position: absolute;
-    left: 450px;
+    left: 415px;
     top: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+button:hover {
+    background-color: red;
 }
 
 .house-age {
@@ -72,7 +77,9 @@ label {
 }
 
 .num {
+    /* border: 1px solid black; */
     font-weight: bolder;
+    margin-left: 0;
     font-family: 'Arial Narrow Bold', sans-serif;
 }
 
@@ -83,13 +90,17 @@ label {
 }
 
 #bed {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    margin-right: 0;
+    /* border: 1px solid black; */
+
 }
 
 #shower {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    margin-right: 0;
+    margin-top: 10px;
+    /* border: 1px solid black; */
 }
 
 h1 {
